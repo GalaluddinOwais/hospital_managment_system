@@ -1,6 +1,6 @@
-# 👇 VIDEO DEMONSTRATION HERE 👇 (I am working on the screenshots) - until then, please accept my video demonstration (You can play it on x2)
+# 👇 VIDEO DEMONSTRATION HERE 👇 
 [Video Recording Drive link](https://drive.google.com/drive/folders/1K2XcRBoRogcwz3t2jXfMacQjeTOSVbKZ)
-
+(I am working on the screenshots) - until then, please accept my video demonstration (You can play it on x2)
 
 # Hospital Management System (HMS)
 
