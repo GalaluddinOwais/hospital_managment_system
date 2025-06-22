@@ -5,6 +5,12 @@
         <t t-call="web.basic_layout">
           <div class="page" style="text-align: center;">
             <h1>Patient Report</h1>
+			<t t-if="doc.image">
+  <img t-att-src="'data:image/png;base64,%s' % doc.image" 
+       style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%; margin: 10px auto;" 
+       alt="Patient Image"/>
+</t>
+
             
 
             <!-- Quick Overview -->
