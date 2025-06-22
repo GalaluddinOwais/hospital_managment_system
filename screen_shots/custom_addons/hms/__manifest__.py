@@ -1,0 +1,21 @@
+{
+    'name': 'Hospital Management System',
+    'version': '1.0',
+    'summary': 'Manage patients in a hospital',
+    'author': 'Galaluddin',
+    'depends': ['web','base', 'crm'],
+    'data': [
+        'security/hms_groups.xml',
+        'security/ir.model.access.csv',
+        'views/base_menu.xml',
+        'views/hms_patient_views.xml',
+        'views/hms_department_views.xml',
+        'views/hms_doctor_views.xml',
+        'views/res_partner_inherit.xml',
+        'reports/hms_reports.xml',
+        'reports/hms_patient_template.xml',
+    ],
+    'category': 'Services',
+    'installable': True,
+    'application': True,
+}
