@@ -14,13 +14,14 @@ This is a custom Odoo module for managing hospital operations, including patient
 - **Patient Logs:** Automatic logging of patient state changes.
 - **Access Control:** User and Manager groups with different permissions.
 - **Reporting:** Generate PDF reports for patients.
-- **CRM Integration:** Link patients to CRM partners.
+- **CRM Integration:** Link patients to CRM customers.
 
 ## Installation
 
 1. Copy the `hms` folder to your Odoo `custom_addons` directory.
-2. Update the app list in Odoo.
-3. Install the "Hospital Management System" module from the Apps menu.
+2. Ensure adding the folder path to the addons_path variable in your odoo.conf file.
+3. Update the app list in Odoo and upgrade the 'hospital management system' module.
+4. Install the "Hospital Management System" module from the Apps menu.
 
 ## Usage
 
