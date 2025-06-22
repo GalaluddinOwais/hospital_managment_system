@@ -30,23 +30,7 @@ This is a custom Odoo module for managing hospital operations, including patient
 - Only users in the "HMS Manager" group can create, edit, or delete doctors and departments.
 - Generate patient reports from the patient form view.
 
-## File Structure
-
-- `models/`: Python models for patients, doctors, departments, logs, and partner inheritance.
-- `views/`: XML views for forms, lists, and menus.
-- `reports/`: QWeb templates for patient reports.
-- `security/`: Access rights and group definitions.
-- `__manifest__.py`: Module manifest.
-
 ## Security
 
 - HMS User and HMS Manager groups with record rules and access rights.
-- Only managers can delete records; users have limited write access.
-
-## Author
-
-Galaluddin
-
----
-
-For any issues or contributions, please open an issue or pull request.
+- Only managers can delete records and view doctors; users have limited write access and can view patients they created only.
